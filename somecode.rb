@@ -8,7 +8,7 @@ remote_full_url =  remote_base_url + "/" + remote_page_name
 #Went to the internet 
  remote_file = open(remote_full_url).read 
 #Opened a new file
- local_file = open("new-world.txt", "w")
+ local_file = open("new-world.html", "w")
 
 #blew my mind - curiosity == yes
  local_file.write(remote_file)
